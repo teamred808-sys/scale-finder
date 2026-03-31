@@ -1,0 +1,10 @@
+name: theory_engine
+description: Pure Dart music theory engine for scale identification and matching.
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0

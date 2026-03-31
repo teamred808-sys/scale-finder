@@ -1,0 +1,16 @@
+name: audio_engine
+description: Pure Dart audio processing engine for monophonic pitch detection and scale analysis.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  fftea: ^1.5.0+1
+  theory_engine:
+    path: ../theory_engine
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^5.1.0
